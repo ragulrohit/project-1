@@ -11,8 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* ================= NAVBAR ================= */
-
 .navbar {
   background: #020617;
   padding: 18px 40px;
@@ -47,8 +45,6 @@ body {
 .nav-links a:hover {
   color: #38bdf8;
 }
-
-/* ================= COMMON PAGE ================= */
 
 .page {
   min-height: 100vh;
@@ -88,7 +84,6 @@ body {
   color: #94a3b8;
 }
 
-/* Focus */
 
 .project-input-box input:focus {
   border-color: #38bdf8;
@@ -119,8 +114,6 @@ body {
   width: 100%;
 }
 
-/* ================= GRID ================= */
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -140,8 +133,6 @@ body {
   transform: translateY(-8px);
 }
 
-/* Card Title */
-
 .project-card h2 {
   color: #38bdf8;
   margin-bottom: 15px;
@@ -160,9 +151,6 @@ body {
   border-radius: 10px;
 }
 
-
-/* ================= FORM ================= */
-
 .form {
   max-width: 650px;
   margin: auto;
@@ -175,8 +163,6 @@ body {
   flex-direction: column;
   gap: 22px;
 }
-
-/* Input & Textarea */
 
 .form input,
 .form textarea {
@@ -191,14 +177,10 @@ body {
   transition: 0.3s;
 }
 
-/* Placeholder */
-
 .form input::placeholder,
 .form textarea::placeholder {
   color: #94a3b8;
 }
-
-/* Focus Effect */
 
 .form input:focus,
 .form textarea:focus {
@@ -206,14 +188,10 @@ body {
   box-shadow: 0 0 8px rgba(56,189,248,0.5);
 }
 
-/* Textarea */
-
 .form textarea {
   resize: none;
   height: 150px;
 }
-
-/* ================= BUTTON ================= */
 
 .new {
   background: #38bdf8;
@@ -232,16 +210,12 @@ body {
   transform: scale(1.02);
 }
 
-/* ================= CONTACT CARDS ================= */
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
   margin-top: 50px;
 }
-
-/* Card */
 
 .card {
   background: #1e293b;
@@ -264,15 +238,12 @@ body {
   font-size: 24px;
 }
 
-/* Card Text */
 
 .card p {
   color: #cbd5e1;
   font-size: 17px;
   line-height: 1.8;
 }
-
-/* ================= HOME PAGE ================= */
 
 .hero {
  text-align: center;
@@ -320,8 +291,6 @@ body {
   transform: scale(1.05);
 }
 
-/* ================= HOME CONTENT ================= */
-
 .home-content,
 .grid {
   display: grid;
@@ -329,8 +298,6 @@ body {
   gap: 30px;
   margin-top: 50px;
 }
-
-/* ================= CARD ================= */
 
 .card {
   background: #1e293b;
@@ -356,8 +323,6 @@ body {
   line-height: 1.8;
 }
 
-/* ================= ABOUT PAGE ================= */
-
 .about-text {
   max-width: 900px;
   margin: auto;
@@ -373,8 +338,6 @@ body {
   color: #cbd5e1;
   line-height: 2;
 }
-
-/* ================= GALLERY ================= */
 
 .gallery {
   display: grid;
@@ -395,8 +358,6 @@ body {
   transform: scale(1.05);
 }
 
-/* ================= BUTTON ================= */
-
 button {
   background: #38bdf8;
   color: #0f172a;
@@ -412,8 +373,6 @@ button:hover {
   background: #0ea5e9;
 }
 
-/* ================= FOOTER ================= */
-
 .footer {
   background: #020617;
   color: #cbd5e1;
@@ -421,8 +380,6 @@ button:hover {
   padding: 20px;
   margin-top: 50px;
 }
-
-/* ================= RESPONSIVE ================= */
 
 @media (max-width: 768px) {
 
