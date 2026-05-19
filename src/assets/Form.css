@@ -1,0 +1,48 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Form container */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Light Theme */
+.form-container.light {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+/* Dark Theme */
+.form-container.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+/* Buttons */
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.theme-btn {
+  margin-bottom: 20px;
+  padding: 10px;
+}
